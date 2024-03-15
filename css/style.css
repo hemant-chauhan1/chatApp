@@ -1,0 +1,26 @@
+.section{
+    height: 450px;
+}
+
+.first{
+    height: 410px;
+    overflow: auto;
+}
+
+.first::-webkit-scrollbar{
+    display: none;
+}
+
+.right,.left,.center{
+    width: 60%;
+    clear: both;
+}
+
+.right{
+    float: right;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
